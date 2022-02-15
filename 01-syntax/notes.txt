@@ -1,0 +1,8 @@
+Each CSS rule contains a declaration block and a selector block. Selectors point out things to style while declarations declare things in the code.  Each declaration must include the name and value of a CSS property (such as color, text align). They should be inside curlies and be separated by semicolons and decblocks.
+Example from our current file:
+P is our selector. It's an element, paragraph<p>, and therefore any paragraph will be chosen for this style.
+color:green;
+text-align:left;
+are both our declarations.  Color is a declaration of font color while it's property is green.  Text-align is a declaration of aligning text and left is it's property.
+
+Our outcome: text in green color on the left side.  Each paragraph is it's own element. "Learning CSS Programming!" is a separate element from "I have styled this paragraph with CSS coding.".  Therefore they appear in that order and since both are paragraph elements they both are subject to the stipulated selector element.
