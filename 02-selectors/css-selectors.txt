@@ -1,0 +1,6 @@
+The CSS selectors
+CSS has simple selectors that select elements based on name, id, and class.
+A combination of selectors can be used which will select elements by analyzing the relationships
+There are pseudo-class selectors basted on a certain state of the HTML elements.
+Attribute selectors focus on attributes (surprise) and the value of the attribute. (attribute is defined as the piece used to change the display or behavior of an element)
+Pseudo-element selectors focus on a style of a certain element.
