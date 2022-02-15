@@ -4,3 +4,5 @@ A combination of selectors can be used which will select elements by analyzing t
 There are pseudo-class selectors basted on a certain state of the HTML elements.
 Attribute selectors focus on attributes (surprise) and the value of the attribute. (attribute is defined as the piece used to change the display or behavior of an element)
 Pseudo-element selectors focus on a style of a certain element.
+
+The id selector uses the HTML element's id attribute for selecting a certain element of the HTML code. The id is unique so it will seek a single element. Use #ID to tag the element to be changed.
