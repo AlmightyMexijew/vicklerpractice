@@ -1,0 +1,10 @@
+Adding CSS:
+Whenever the browser reads the style sheet it gets ready to format the page based on the information in the style sheet.  There are 3 ways to go about this:
+1) External CSS (link ref to style sheet in folder)
+2) Internal CSS (styling in <style> tag in <head>.)
+3) Inline CSS (styling in the element itself)
+
+The following index pages are the examples:
+1) External --> index.html
+2) Internal --> index2.html
+3) Inline --> index3.html
