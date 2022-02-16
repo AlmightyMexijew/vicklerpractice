@@ -8,3 +8,5 @@ Pseudo-element selectors focus on a style of a certain element.
 The id selector uses the HTML element's id attribute for selecting a certain element of the HTML code. The id is unique so it will seek a single element. Use #ID to tag the element to be changed.
 
 note on index5.html :  it says red but the color input was blue...I'm assuming this was an error lost in the process of copywriting.
+
+note on index.html of universal dir: same issue of red but coding for blue. However I do notice that the intended difference to be observed here is that h4 means the header is bold. It has the same as the universals but because it's behavior as an h1-6 element, it gets bolded and sized...and then the universal size change is slapped onto that. The rest of the paragraphs are styled accordingly without the bold..because they're paragraphs and not headers.
