@@ -1,0 +1,3 @@
+Notes on Grouping Selector:
+The Grouping Selector applies the style declarations to all of the HTML elements with the same definition of style. (i.e. p applies to all paragraphs, h4 applies to all h4)
+When possible it's a better option to apply a group of selectors together to cut down on code. Each entry in the group must be given a comma separator.
