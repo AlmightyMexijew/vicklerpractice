@@ -11,4 +11,6 @@ Values are set in the form of 00 and ff. The ff value is the maximum value possi
 See example indexhex.html
 There is also a 3-digit hexcode as well. The shorter code is shorthand for the 6-digit. The single digits represent r,g,b. One value is used for double. Therefore, the code #ff00cc is exactly the same and reduced to #f0c.
 see example indexhex2.html
-Option 2: RGB.  
+Option 2: RGB.  RGB is short for "Red Green Blue". They are the major colors, scientifically observed, that form the source of light.  Each parameter of the color formula defines the intensity of a color in combination between the 0 and 255th values.  If  you set the first unit at 255 and the other 2 at 0, the HTML element will give off an intense red color. This is because the red will be fullest blast, and the other 2 major colors will be set to 0, not showing any influence.
+
+To display the color black, what would we do then? We would set the values to 0,0,0.  To display white, the values whould be 255 (255,255,255). This is the way we get around the difficult question of how much RGB is found in either color.
