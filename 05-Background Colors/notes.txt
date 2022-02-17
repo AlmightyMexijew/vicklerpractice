@@ -1,0 +1,2 @@
+When designing a website, it's a nice thing to be able to change the color of the background.  Different pages need different colors as per the structure and content on them. Using CSS we can add color to our webpages, making it easier to identify them.
+
