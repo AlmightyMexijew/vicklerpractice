@@ -1,0 +1,6 @@
+There are other ways to add color than just naming them (like blue; yellow; and so on).  There are several options available.
+Option 1: HEX values -- Using hex values to arrive at a color.
+Option 2: RGB values -- Using Red-Green-Blue (RGB) value to arrive at a color
+Option 3: RGBA values -- like RGB but with A for alpha, which sets transparency.
+Option 4: HSL values -- Using Hue-Saturation-Lightness values to arrive at a color.
+Option 5: HSLA values -- HSL with the alpha transparency added.
