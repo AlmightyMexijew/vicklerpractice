@@ -4,3 +4,7 @@ If some properties are defined for the same element in multiple style sheets, th
 The page seen is the combination of external and internal stylesheets. Change the color and produce different results. If you define the internal style before the link to the external style sheet (in location), the color will change.
 
 index2.html displays this. The difference is between link rel before style and link rel after style.
+
+What's happening? The computer starts with the first sheet it reads. In index.html it's set to look at the stylesheet kazstyle.css first. After this, it looks at the internalized <style> and chooses to apply that since it's the last literal sheet it encounters.
+
+When we look at index.html, the <style> and the <link> are swapped. That means that the computer sees the <style>, says ok, then sees the kazstyle.css and applies that. This makes our text red because the color we chose was red to highlight a difference.  The initial style was blue, but, the last style is the kazstyle.css which says make it red. Therefore it's red.
