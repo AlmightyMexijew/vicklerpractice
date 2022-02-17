@@ -1,0 +1,1 @@
+Text color can also be changed within HTML elements. For that purpose we're going to discuss the positioning of code. See the code.

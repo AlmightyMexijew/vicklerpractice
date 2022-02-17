@@ -1,2 +1,5 @@
 When designing a website, it's a nice thing to be able to change the color of the background.  Different pages need different colors as per the structure and content on them. Using CSS we can add color to our webpages, making it easier to identify them.
 
+When doing this according to the code here, we're putting background-color inline. It will have the highest priority of properties.
+
+If we were to <link rel=""> and put a style.css in there, it would have 2nd best priority. The results would be similar, but the structural strength would differ as inline gets priority.
