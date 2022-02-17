@@ -8,3 +8,13 @@ index2.html displays this. The difference is between link rel before style and l
 What's happening? The computer starts with the first sheet it reads. In index.html it's set to look at the stylesheet kazstyle.css first. After this, it looks at the internalized <style> and chooses to apply that since it's the last literal sheet it encounters.
 
 When we look at index.html, the <style> and the <link> are swapped. That means that the computer sees the <style>, says ok, then sees the kazstyle.css and applies that. This makes our text red because the color we chose was red to highlight a difference.  The initial style was blue, but, the last style is the kazstyle.css which says make it red. Therefore it's red.
+
+Multiple Styling:
+These were a combination of external and internal styling. What style do we need to use when we find more than one style for a specific HTML element? There will be a cascading of a new virtual sheet with different rules.
+*The first rule applied is inline styling: done inside the html element itself.
+*The second rule is internal and external style sheets inside of the head section.
+*The third rule is the browser default.
+In this series, the styling goes from 1 as most priority to 3 as least. Browser default is least priority and inline is most priority.
+
+Comments: Comments in CSS are not displayed inside the browser. They support the documentation however within the source code. They're useful for explaining or editting code to be included later. The browser will ignore comments. To make them, we need to place them inside the <style> brackets. It must be /* comment here */ like this.
+Index3.html is our practice for this.
