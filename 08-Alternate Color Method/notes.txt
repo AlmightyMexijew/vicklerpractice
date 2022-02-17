@@ -23,4 +23,4 @@ See indexrgba.html .
 
 Option 4: HSL. Short for "Hue,Saturation, and Lightness". A color c an be specified by using the values of HSL.  This ranges from 0 to 360, where 0 is red and 120 is green, 240 is blue.  Saturation value is measured in a percentage. 0 means grey shade while 100% means full color.  Lightness also comes in a percentage where 0 is black, 50 is middle, and 100 is white.
 
-Option 5: HSLA. Same as above, with alpha like the RGBA.  
+Option 5: HSLA. Same as above, with alpha like the RGBA.  see example.
