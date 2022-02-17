@@ -1,2 +1,6 @@
 If some properties are defined for the same element in multiple style sheets, the editor will use the last style sheet. If there is an internal defined after the insertion of an external style sheet, the latter (the internal) will be applied.
 
+(after establishing index.html)
+The page seen is the combination of external and internal stylesheets. Change the color and produce different results. If you define the internal style before the link to the external style sheet (in location), the color will change.
+
+index2.html displays this. The difference is between link rel before style and link rel after style.
