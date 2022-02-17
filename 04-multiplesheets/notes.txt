@@ -18,3 +18,5 @@ In this series, the styling goes from 1 as most priority to 3 as least. Browser 
 
 Comments: Comments in CSS are not displayed inside the browser. They support the documentation however within the source code. They're useful for explaining or editting code to be included later. The browser will ignore comments. To make them, we need to place them inside the <style> brackets. It must be /* comment here */ like this.
 Index3.html is our practice for this.
+
+Index4.html shows a comment included in color, but we're typing it out solely for the reason of practice.
