@@ -4,3 +4,8 @@ Option 2: RGB values -- Using Red-Green-Blue (RGB) value to arrive at a color
 Option 3: RGBA values -- like RGB but with A for alpha, which sets transparency.
 Option 4: HSL values -- Using Hue-Saturation-Lightness values to arrive at a color.
 Option 5: HSLA values -- HSL with the alpha transparency added.
+
+---
+Option 1: HEX. Hex is short for Hexadecimal, and in this context it's a color reference specified by a hexadecimal number.  The hex number has 6 digits and can be divided into 2 pairs of reds, greens, and blues. The hex integer specifies the color components.
+Values are set in the form of 00 and ff. The ff value is the maximum value possible in hex, at 255.  The HEX colors are a mix of numbers and alphabets.
+See example indexhex.html
