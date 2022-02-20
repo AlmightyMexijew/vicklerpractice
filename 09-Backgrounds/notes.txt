@@ -20,3 +20,7 @@ Example 1: borders1.html
 Border Width 
 It is possible to adjust width of borders by specifying a size in em, px(pixels), cm, and pt(points). These measures will make borders thinner, thicker, or somewhere in the middle depending on what is specified.
 see borders2.html for a single set of examples
+
+Border Colors
+CSS has a border color property to set border colors. It can accept HEX,HSL, or RGB to specify color. It also takes named colors (red,green,blue).  If the color isn't set it will absorb the element's color by default. That means an otherwise orange <p> will also have a orange border.  Also: color can be changed between sides of the border.
+See example borders3.html and borders4.html .
