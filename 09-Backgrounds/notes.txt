@@ -1,0 +1,5 @@
+Having already worked with background colors a bit in the last chapter, it's time to play with the background in more detail.
+
+Backgrounds can be set with an opacity value. The property takes any value between 0 and 1. That means that the lower the value (0.1,0.2) the more transparent the background is. It's like an alpha value in RGBA/HSLA but as a property. We can even use it independently in CSS.
+
+see index.html
