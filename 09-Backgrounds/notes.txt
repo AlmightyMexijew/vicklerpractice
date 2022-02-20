@@ -13,3 +13,6 @@ see indexbgimage.html for example. skyfall.gif is referenced but not provided so
 
 The most important thing to keep in mind when using images as a background is that we should not use an image that messes with the text and legibility of the text. We want readability. We can set a background image for certain elements without displaying it on the entire page. The property called "background-image" can repeat in both horizontal and vertical styles. Some images would look weird if they didn't get repeated while others look weird. We can choose not to repeat it by using "no-repeat" image property. We can also position the background image to the top or bottom corners by using specific properties.
 
+Borders in CSS
+The CSS borders are fixable with width, style, and color. We have various ways of implementing borders to content and elements.
+Example 1: borders1.html
