@@ -16,3 +16,7 @@ The most important thing to keep in mind when using images as a background is th
 Borders in CSS
 The CSS borders are fixable with width, style, and color. We have various ways of implementing borders to content and elements.
 Example 1: borders1.html
+
+Border Width 
+It is possible to adjust width of borders by specifying a size in em, px(pixels), cm, and pt(points). These measures will make borders thinner, thicker, or somewhere in the middle depending on what is specified.
+see borders2.html for a single set of examples
