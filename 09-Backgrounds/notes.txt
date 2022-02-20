@@ -24,3 +24,16 @@ see borders2.html for a single set of examples
 Border Colors
 CSS has a border color property to set border colors. It can accept HEX,HSL, or RGB to specify color. It also takes named colors (red,green,blue).  If the color isn't set it will absorb the element's color by default. That means an otherwise orange <p> will also have a orange border.  Also: color can be changed between sides of the border.
 See example borders3.html and borders4.html .
+
+Border Sides 
+We can pattern colors and styles for each side independently if we want.  What we need for that is to add border-(side here)-style:  (type of border); border-color:(color);
+
+There are rules for this however:
+Rule 1: Adding 4 values and ordering them ridge,dotted, solid, dashed will put the top as ridged, the right as dotted, the bottom as solid, and the left as dashed.
+Rule 2: Adding 3 values and ordering as solid dotted dashed will make the top one solid, right and left dotted, and bottom dashed.
+Rule 3: Adding 2 values (solid, dashed) will put top and bottom as solid and right/left as dashed.
+Rule 4: Adding just solid will make all sides solid.
+
+Rounded Borders
+To round borders, we have a property called border-radius.
+see border-radius.html .
