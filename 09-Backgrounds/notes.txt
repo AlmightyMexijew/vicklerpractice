@@ -3,3 +3,9 @@ Having already worked with background colors a bit in the last chapter, it's tim
 Backgrounds can be set with an opacity value. The property takes any value between 0 and 1. That means that the lower the value (0.1,0.2) the more transparent the background is. It's like an alpha value in RGBA/HSLA but as a property. We can even use it independently in CSS.
 
 see index.html
+
+Background Properties
+When using the opacity property for adding transparency to the background of a certain HTML element, all the child elements will be transparent at the same level. If done wrong it will be difficult for users to read things.
+
+Images
+Another property of CSS that can be applied to backgrounds is images.  The image property can be specified, allowing us to use images as the background of our webpage.  The image will be repeated to cover the entire element.
