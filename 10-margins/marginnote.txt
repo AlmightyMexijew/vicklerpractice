@@ -1,0 +1,4 @@
+CSS Margins and Padding
+We can use CSS margins for creating space around elements. We can also do this from the borders of our previously defined elements.
+
+See margin1.html
