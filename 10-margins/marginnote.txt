@@ -17,3 +17,7 @@ The top and bottom margins are capable of collapsing in the form of taking up th
 Padding in CSS
 Padding adds space and a feeling of spaciousness in the contents of an element within the borders.
 see example padding.html
+
+We can use padding to generate space on all sides of the element within the defined borders. We can use the properties for setting different padding for different elements to the top,bottom,left,right sides. Padding in CSS has a length property which is used to specify the padding in cm,px,and pt.  Width is a percentage(%). These can also inherit in styling.
+
+see padding2.html.
