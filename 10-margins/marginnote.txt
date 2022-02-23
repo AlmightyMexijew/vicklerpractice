@@ -10,3 +10,10 @@ The next example is about CSS inheritance and how margins are inherited.
 See margin3.html.
 
 In margin3.html there is inheritance from a div to paragraph kaz.  The CSS styles divs to have margin-left of 50px and a skyblue border of 5px.  The h4 and p preceding the div don't style this way. Since the div contains the child element of a paragraph (kaz), there will be an inheritance potentially.  If the div had several others, they'd also inherit. The way we make this happen is by styling the internal child elements as inherit, conferring them with div's styling.
+
+Margin Collapse--Feature?
+The top and bottom margins are capable of collapsing in the form of taking up the larger margin between 2 elements. This doesn't happen on right/left (says Vickler) but does for top/bottom.
+
+Padding in CSS
+Padding adds space and a feeling of spaciousness in the contents of an element within the borders.
+see example padding.html
