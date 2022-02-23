@@ -4,3 +4,7 @@ We can use CSS margins for creating space around elements. We can also do this f
 See margin1.html
 
 Margins have multiple properties. We can build space around certain elements. We can do it from their borders if we want. We can control them individually by side. We can color them individually too.
+see margin2.html
+
+The next example is about CSS inheritance and how margins are inherited.
+See margin3.html.
