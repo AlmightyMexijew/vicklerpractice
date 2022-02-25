@@ -21,3 +21,5 @@ see example padding.html
 We can use padding to generate space on all sides of the element within the defined borders. We can use the properties for setting different padding for different elements to the top,bottom,left,right sides. Padding in CSS has a length property which is used to specify the padding in cm,px,and pt.  Width is a percentage(%). These can also inherit in styling.
 
 see padding2.html.
+The width feature. Adding width property can define how much width the HTML element will have. When defined, the padding is added to width, producing unexpected results.
+See example padding3.html 
