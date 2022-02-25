@@ -27,3 +27,6 @@ See example padding3.html
 CSS Width and Height
 We can also set width and height properties together. They don't include borders,padding, or margins, which all impact the overall look of the site. We can set them to auto to make the default settings and let the browser calculate itself to respond to the display. These values are defined in cm and px. The value "inherit" will make the child element inherit from the parent element.
 see example widthnheight.html.
+
+If we want we can set the maximum possible width with max-width property.  We could do this in cm, px or %. If the browser is smaller than the element width, there will be a horizontal bar for scrolling on the page.  The max-width handles this situation well. It makes it more "responsive". It will also over-ride width statements.
+see widthnheight2,3.html files.
