@@ -1,0 +1,2 @@
+Notes--CSS Boxes
+The box model is an integral piece of the design and layout process in websites and web development. The box described by the box model is one that encloses an HTML element. It has borders, margins, padding, and the content inside (of course).  There are several parts to the model as we said, and the most important is the content.  This is where you put text aqnd insert images to be displayed.  The next biggest component is padding that clears areas of content. This padding itself is transparent.
