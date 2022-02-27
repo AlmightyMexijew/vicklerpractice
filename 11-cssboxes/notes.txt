@@ -28,3 +28,6 @@ The CSS outline property can be used to define or change colors of all HTML elem
 
 Example:
 boxmodelcolors.html 
+
+Instead of writing separate code lines, CSS offers a shorthand property to save time when writing lengthy code. This should really only be used by experts. We'll do the boxmodelcolors.html in shorthand to boxmodelcolors2.html.
+see boxmodelcolors2.html .
