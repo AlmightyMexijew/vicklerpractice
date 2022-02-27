@@ -22,3 +22,9 @@ CSS outline feature has the width property to make an outline thicker or thinner
 3) thick (5px)
 But we can also add any px,em,pt, or cm value to it like with borders.
 see boxmodel4.html 
+
+Color Property
+The CSS outline property can be used to define or change colors of all HTML elements on your website. This can be HEX,HSL, or RGB.  Even the name of colors works.
+
+Example:
+boxmodelcolors.html 
