@@ -3,3 +3,13 @@ The box model is an integral piece of the design and layout process in websites 
 
 The 3rd most important part of box model is the border. The border traces around your content and the inner padding. It encloses them inside itself completely. This forms "the box". After that is a less noticed 4th part: the margin.  Margins are clearing the areas around the borders and creating space to make the box look formatted and clean.  The margins are also, like padding, transparent. The box model adds a border around this element and defines the space from all the the other elements nearby.
 In example 1, we will create the box model for demonstration.
+
+Vickler says that if we want to learn how the box model works, we need to consider how to correctly set up the height and width of our elements. When we set them up, we can set height and width explicitly. If we want to calculate the size of an element, he says we will ultimately need to add padding, margins, and borders.
+
+His method for this is the following:
+Total width == right padding + left padding + width + right border + left border + right margin + left margin.
+Total height == height + bottom padding + top padding + bottom margin + top margin + bottom border + top border.
+
+The Outline
+A CSS outline is drawn out of the border of an element.  We use it for emphasizing and making the element stand out from the rest of the page. It might be used to emphasize a certain piece of text, images, or other things.  The outline shouldn't be confused with borders because it goes beyond the CSS borders themselves (i.e. it considers padding/margin type stuff). The outline feature has different properties which give freedom to experiment. Just like we can change borders we  can also do it with CSS outlines.
+see boxmodel2.html.
