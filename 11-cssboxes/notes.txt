@@ -14,3 +14,11 @@ The Outline
 A CSS outline is drawn out of the border of an element.  We use it for emphasizing and making the element stand out from the rest of the page. It might be used to emphasize a certain piece of text, images, or other things.  The outline shouldn't be confused with borders because it goes beyond the CSS borders themselves (i.e. it considers padding/margin type stuff). The outline feature has different properties which give freedom to experiment. Just like we can change borders we  can also do it with CSS outlines.
 see boxmodel2.html.
 see boxmodel3.html for more outline play.
+
+Width Property
+CSS outline feature has the width property to make an outline thicker or thinner as desired. The width property will specify how wide the outline should be (much like borders). It can have several values:
+1) thin (1px)
+2) medium (3px)
+3) thick (5px)
+But we can also add any px,em,pt, or cm value to it like with borders.
+see boxmodel4.html 
