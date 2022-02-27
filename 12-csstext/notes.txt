@@ -8,3 +8,6 @@ The text-alignment property tunes in the alignment of the text. We can make it g
 Text Direction
 We can use Unicode-bidi and direction properties to alter the direction of the text.
 see example2.html 
+
+Vertical alignmentThe vertical-align property will set up vertical alignment for our HTML elements. We can add an image and set up vertical alignment for that too.
+see example3.html 
