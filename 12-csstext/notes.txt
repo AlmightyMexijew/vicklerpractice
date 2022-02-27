@@ -1,0 +1,3 @@
+CSS Text notes
+One of the things that we have to work on when developing and designing a website is formatting the texts and filling boxes in a way that displays best.  For that reason, CSS text formatting is an important feature because, without the text and the content, the website design is itself meaningless.
+see example1.html
