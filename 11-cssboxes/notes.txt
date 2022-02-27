@@ -31,3 +31,6 @@ boxmodelcolors.html
 
 Instead of writing separate code lines, CSS offers a shorthand property to save time when writing lengthy code. This should really only be used by experts. We'll do the boxmodelcolors.html in shorthand to boxmodelcolors2.html.
 see boxmodelcolors2.html .
+
+Outline Offset Property
+This property in CSS is about creating space between the border of an HTML element and an outline.(like padding from border to our "border"). The space is transparent all the time and we can decide how much space we need.  See example offsetoutline.html.
