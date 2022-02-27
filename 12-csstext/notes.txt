@@ -1,3 +1,10 @@
 CSS Text notes
 One of the things that we have to work on when developing and designing a website is formatting the texts and filling boxes in a way that displays best.  For that reason, CSS text formatting is an important feature because, without the text and the content, the website design is itself meaningless.
 see example1.html
+
+Text alignment
+The text-alignment property tunes in the alignment of the text. We can make it go horizontally or vertically as required. We can center, right-align, or justify (relative center?). Each line will then be stretched to have equal width by default. Right/Left margins will be straight like newspapers or magazines.
+
+Text Direction
+We can use Unicode-bidi and direction properties to alter the direction of the text.
+see example2.html 
