@@ -11,3 +11,24 @@ see example2.html
 
 Vertical alignmentThe vertical-align property will set up vertical alignment for our HTML elements. We can add an image and set up vertical alignment for that too.
 see example3.html 
+
+Decoration
+CSS allows us to use something called text-decoration. The property makes and removes decorations. If the value is none, the property will remove them.
+text-decoration: overline, line-through, underline
+
+Text Transformation
+This specifies case in lettering...so...upper or lowercase.
+text-transformation: uppercase, lowercase, capitalize.
+capitalize only does first letter of a word.
+
+Indentation
+This indents the text of the first line.
+text-indent: ?? px 
+
+Letter Spacing
+This is for spacing between letters.
+letter-spacing: ?? px or -?? px
+
+Height
+We can set the height of lines by using line-height: and giving it 0 - 1 in point increments (.10,.20) (and beyond 2). This will set the line to be closer to the line above it, mashing the text together vertically.
+
