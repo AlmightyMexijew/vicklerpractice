@@ -32,3 +32,21 @@ letter-spacing: ?? px or -?? px
 Height
 We can set the height of lines by using line-height: and giving it 0 - 1 in point increments (.10,.20) (and beyond 2). This will set the line to be closer to the line above it, mashing the text together vertically.
 
+Wordspacing
+Similar property to letter spacing.
+
+Text Shadow
+we can use text-shadow to add. It has h-shadow, v-shadow, color, and inherit.  
+
+CSS Fonts
+There are 5 major font families:
+1)serif (small edge additions..good for formal). Examples include Times New Roman, Georgia and Garamond.
+2)sans-serif (edgeless and clean lines. More modern and minimalist). Examples include Verdana, Helvetica, and Arial.
+3)monospace. They have a fixed width between letters. These are more mechanical looking and include Monaco, Courier New, and Lucida Console.
+4)Cursive. They're resemblant of handwriting. examples include Lucida Handwriting and Brush Script M7.
+5)Fantasy. They are bold, playful, and highly decorative.  Things like Copperplate and Papyrus.
+
+We can use font-family to decide which font we need to display.  It should ideally have several fonts named with it to make sure browsers don't play games with it.  Start with the one you want and put the backups after it.
+i.e. font-family: "tmes New Roman", Times, serif;
+
+To see them in action, see fonts1.html .
