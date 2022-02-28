@@ -9,3 +9,11 @@ see example1.html
 Adding Colors 
 Lists can be colored to make them look interesting.  Anything added to the ul or ol will affect the complete list. However, we can add properties to li and that also isolates to individual items.
 see example2.html 
+
+CSS Tables
+We can also change the look of tables with CSS.
+see example3.html 
+
+The Border Property 
+We can add borders via CSS to make the table look nice.
+see example4.html 
