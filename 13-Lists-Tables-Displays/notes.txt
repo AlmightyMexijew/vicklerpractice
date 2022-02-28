@@ -17,3 +17,23 @@ see example3.html
 The Border Property 
 We can add borders via CSS to make the table look nice.
 see example4.html 
+
+The Width Property
+We can also set the width of columns and rows on our tables. This will make it so the presentation is more tight and not huge boxes for small entries.
+This can be done with table {width:percent here}
+
+The Height Property 
+Similar to width.
+
+Aligning Tables
+Aligning is possible with text in td and th.  It can be aligned in the td, the th, and td in a vertical format.
+
+CSS Layout**
+To create a clean layout in CSS, we need to use the display property. This property can help in controlling the layout in a better way.  This specifies how an element on our page should be displayed.  Each HTML element carries a default display value based on it's type.  The default value is usually inline or block.  Each block element takes a new line to start. This means block following block will stack on the page (paragraph followed by paragraph, image by image).  The block elements also take up full R-L width of the screen.
+
+The elements <form>,<div>,<header>,<footer>,<p>, <h1> are all block elements.
+
+Block elements always take full width when available.  If we set the width, it will avoid stretching the edges further than we might intend.  After that, we can set up our margins to auto and horizontally center our element in the container.  This inherits whatever width specified and the rest of the space is divied up by margins.
+
+Sometimes we may hit on a stumbling block if the browser window is smaller than our element or page.  After that, it may even throw in a scroll bar.  To prevent this we use **max-width**, allowing us to make a nice fit with smaller screens.
+see layout1.html 
