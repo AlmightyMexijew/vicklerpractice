@@ -52,4 +52,24 @@ The second layout position is relative. It adjusts the HTML elements relative to
 see relative.html 
 
 **Fixed 
-The third layout position is fixed. This takes an HTML element and gives it a position. It should always be positioned with regard relative to the viewpoint (also called viewport, this is where we see things displayed.Usually this has to do with mobile and page sizing relative to that.)
+The third layout position is fixed. This takes an HTML element and gives it a position. It should always be positioned with regard relative to the viewpoint (also called viewport, this is where we see things displayed.Usually this has to do with mobile and page sizing relative to that.). It will stay in the same place even while we scroll to the bottom of a page. We can set it to all the directions as desired and there is no gap left in the page.
+see fixed.html 
+The example shown gives us an idea of how to adjust our layout.  If we give a 0 value to the bottom property, it will make the div always sit at the bottom. This includes as we scroll downward. *It's recommended not to do so because it's considered "annoying".
+
+**Absolute
+An absolute position is one where the element is relative to the closest positioned ancestor.  This means if there is a div within a chain of say, 2 more divs, the main div's going to decide the relative location of the child-most div.  div 1 --> div 2 --> div 3  where div3 positions relative to div 1. If there isn't one, it'll choose to move around as needed.
+see example absolute.html 
+
+**Sticky 
+The sticky position property is adjusted as a user scrolls down. A sticky element tends to toggle between the fixed and relative properties.
+see example sticky.html 
+
+Element Overlapping
+When we have positioned multiple elements, they will overlap with different elements. This may have negative or positive stack order influences.
+see overlap.html 
+
+
+
+** Absolute 
+
+
