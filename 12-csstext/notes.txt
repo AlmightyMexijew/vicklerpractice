@@ -50,3 +50,16 @@ We can use font-family to decide which font we need to display.  It should ideal
 i.e. font-family: "tmes New Roman", Times, serif;
 
 To see them in action, see fonts1.html .
+
+There is also font-style, which specifies text to be turned italic.  Oblique is similar to italic but less supported.
+
+Font-weight is another property, but for boldness.  It has several ways of determining color strength like lighter, bold, 1000.
+
+Font-variant capitalizes.
+
+Font-Size Property 
+This is useful for setting the size of the text.
+
+CSS Font-Pairing
+This about styling fonts to be different so they generate better interest in the eye.
+
