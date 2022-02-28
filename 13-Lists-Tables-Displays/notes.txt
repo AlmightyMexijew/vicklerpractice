@@ -37,3 +37,19 @@ Block elements always take full width when available.  If we set the width, it w
 
 Sometimes we may hit on a stumbling block if the browser window is smaller than our element or page.  After that, it may even throw in a scroll bar.  To prevent this we use **max-width**, allowing us to make a nice fit with smaller screens.
 see layout1.html 
+
+margins being set to auto divides it up evenly. The effect is that the element is seemingly centered by the fact that there is remaining space to chop up and share on each side.  Since we didn't explicitly state otherwise, it's assuming that we want an even chop.  Therefore elements are centered.  The visual illusion in this is centering, and in smaller elements we see it better.
+Max-width also makes a maximum size, so the smaller element that has it for testing will always resize to within that limit while the other div expands to fill and continue beyond.
+
+Positioning Property 
+The property position is for specifying which method of positioning we want an element to have.  This might be relative, sticky, static, fixed, or absolute. Once we decide on it, we can position the HTML element using the right,left,top,bottom properties. They won't work unless we set the position property in code though.
+
+**Static
+The first layout position is static. All HTML elements on our website take the static position by default. These elements are the least affected by the left, top, bottom, and right properties.  An HTML element with the static option is not positioned specially.  They position by page flow.  This means essentially that the position isn't tied to any specific factor and they may move between browsers, sizes, and user's setups.
+
+**Relative 
+The second layout position is relative. It adjusts the HTML elements relative to the normal position to an HTML element. Setting something to relative and giving it properties will shift it away from it's normal position.
+see relative.html 
+
+**Fixed 
+The third layout position is fixed. This takes an HTML element and gives it a position. It should always be positioned with regard relative to the viewpoint (also called viewport, this is where we see things displayed.Usually this has to do with mobile and page sizing relative to that.)
