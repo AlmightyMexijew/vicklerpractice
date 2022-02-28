@@ -5,3 +5,7 @@ Vickler says that HTML has 2 types of lists. The list properties of CSS let us p
 CSS Lists
 The CSS property list-style-type specifies what type of list items your visitors will see on the web page. We can use more than one type to display bullet points.
 see example1.html 
+
+Adding Colors 
+Lists can be colored to make them look interesting.  Anything added to the ul or ol will affect the complete list. However, we can add properties to li and that also isolates to individual items.
+see example2.html 
