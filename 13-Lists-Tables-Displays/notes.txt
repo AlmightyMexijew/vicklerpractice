@@ -1,1 +1,7 @@
 Lists, Tables, Displays notes
+
+Vickler says that HTML has 2 types of lists. The list properties of CSS let us plays with those 2(ordered and unordered lists). We can insert images or set things as a market. We can add colors as well within the structure.
+
+CSS Lists
+The CSS property list-style-type specifies what type of list items your visitors will see on the web page. We can use more than one type to display bullet points.
+see example1.html 
