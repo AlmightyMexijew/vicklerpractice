@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>This is an experiment in which we will change the data by button and input.</p>
+        <form>
+            <label for="firstname" name="firstname">Input your first name</label>
+            <input type="text" id="firstname" name="firstname">
+            <br>
+            <label for="lastname" name="lastname">Input your last name</label>
+            <input type="text" id="lastname" name="lastname">
+        </form>
+        <button onclick="FunctionX()">Click When Ready</button>
+        <script>
+            function FunctionX() {
+                const firstname = document.getElementById("firstname").value;
+                const lastname = document.getElementById("lastname").value;
+                const bothNames = [firstname,lastname];
+                alert(firstname + " " + lastname);
+                alert(bothNames[1]);
+                alert(bothNames[0]);
+            }
+        </script>
+    </body>
+</html>
